@@ -1,26 +1,26 @@
-
+int red=13;
+int yellow=12;
+int green=11;
 void setup() {
   // put your setup code here, to run once:
-  pinMode(13,OUTPUT);
-  pinMode(12,OUTPUT);
-  pinMode(11,OUTPUT);
-
-
+  pinMode(red,OUTPUT);
+  pinMode(yellow,OUTPUT);
+  pinMode(green,OUTPUT);
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
-  digitalWrite(13,HIGH);
-  digitalWrite(11,LOW);
-  digitalWrite(12,LOW);
+  digitalWrite(red,HIGH);
+  digitalWrite(yellow,LOW);
+  digitalWrite(green,LOW);
   delay(5000);
-  digitalWrite(13,LOW);
-  digitalWrite(11,LOW);
-  digitalWrite(12,HIGH);
+  digitalWrite(red,LOW);
+  digitalWrite(green,LOW);
+  digitalWrite(yellow,HIGH);
   delay(1000);
-  digitalWrite(13,LOW);
-  digitalWrite(11,HIGH);
-  digitalWrite(12,LOW);
+  digitalWrite(red,LOW);
+  digitalWrite(green,HIGH);
+  digitalWrite(yellow,LOW);
   delay(4000);
   
 
